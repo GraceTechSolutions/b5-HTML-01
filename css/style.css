@@ -1,0 +1,45 @@
+/* body{
+    color: #000000;
+    color: #C0C0C0;
+    color: #808080;
+    color: #FFFFFF;
+    color: #800000;
+    color: #00FFFF;
+    color: #555a91;
+} */
+
+
+/* Float */
+/* Flex */
+/* Grid */
+
+.main{
+    /* display: grid; */
+    /* grid-template-columns: 10fr 11fr 10fr; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-rows: repeat(3, 80px); */
+    /* 4 */
+    /* grid-gap: 15px; */
+    /* gap: 10px; */
+}
+
+.child {
+    display: inline-block;
+    margin: 20px;
+    padding: 30px;
+    background-color: #CCC;
+    border: 3px solid #999;
+    border-width: 3px;
+    border-style: solid;
+}
+.anc{
+    display: inline-block;
+    /* padding: 20px; */
+    /* padding: 10px 20px 30px 5px; */
+    /* margin: 10px 20px 30px 5px; */
+    padding: 20px 50px;
+    background-color: #CCC;
+    border: 2px solid;
+    /* padding: 30px;
+    margin: 30px; */
+}
