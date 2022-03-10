@@ -1,0 +1,68 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    /* grid-template-areas: 
+    'header header header header header'
+    'blank1 main main sidebar blank2'
+    'blank1 twin1 twin2 twin2 blank2'
+    'footer footer footer footer footer'
+    ; */
+}
+
+.main>div{
+    background-color: black;
+    color: aliceblue;
+    height: 200px;
+}
+
+.header {
+    grid-column: 1/-1;
+    /* grid-column-end: 6; */
+}
+.footer{
+    grid-column: 1/-1;
+    /* grid-column-end: 6; */
+}
+.sidebar{
+    grid-column: 4/-2;
+    /* grid-column-end: 5; */
+}
+.main{
+    grid-column: 2/4;
+    /* grid-column: span 2; */
+    /* grid-column-end: 4; */
+}
+.twin1{
+    grid-column: 2/3;
+    /* grid-column-end: 3; */
+}
+.twin2{
+    /* grid-column: 3/-2; */
+    grid-column: span 2;
+    /* grid-column-end: 5; */
+}
+
+
+
+/* .header {
+    grid-area: header;
+}
+.footer{
+    grid-area: footer;
+}
+.blank1{
+    grid-area: blank1;
+}
+.main{
+    grid-area: main;
+}
+.twin1{
+    grid-area: twin1;
+}
+.twin2{
+    grid-area: twin2;
+}
+.blank2{
+    grid-area: blank2;
+} */
